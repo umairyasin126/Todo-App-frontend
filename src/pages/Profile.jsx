@@ -13,7 +13,15 @@ const Profile = () => {
 
   return loading ? ( <Loader /> 
       ) : (
-      <div>
+      <div style="width: 100%;
+    height: 100vh;
+    text-align: center;
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 50px;">
         <h1>{user?.name}</h1>
         <p>{user?.email}</p>
       </div>
