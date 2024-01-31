@@ -1,3 +1,4 @@
+import React from "react";
 import Loader from "../components/Loader";
 import { Context} from "../main"
 import { useContext } from "react"
